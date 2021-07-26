@@ -4,8 +4,8 @@ React Application integrated with Django REST framework for Create and Read oper
 
 - [Table Of Contents](#table-of-contents)
 - [Setup Instructions](#setup-instructions)
-  - [Backend Setup](#backend-setup)
-- [Frontend Configuration](#frontend-configuration)
+  - [Backend Configuration](#backend-configuration)
+  - [Frontend Configuration](#frontend-configuration)
 - [Architecture](#frontend-configuration)
   - [Frontend Architecture](#frontend-architecture)
   - [Backend Architecture](#backend-architecture)
