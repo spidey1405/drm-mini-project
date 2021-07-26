@@ -6,6 +6,7 @@ React Application integrated with Django REST framework for Create and Read oper
 - [Setup Instructions](#setup-instructions)
   - [Backend Setup](#backend-setup)
 - [Frontend Configuration](#frontend-configuration)
+- [Architecture](#frontend-configuration)
   - [Frontend Architecture](#frontend-architecture)
   - [Backend Architecture](#backend-architecture)
 - [Demo](#demo)
@@ -18,7 +19,7 @@ React Application integrated with Django REST framework for Create and Read oper
 
 - git clone `https://github.com/spidey1405/drm-mini-project`
 
-## Backend Setup
+# Backend Configuration
 
 First cd into `drm-mini-project/django_project` and then setup the virtual environment by the following command:
 
@@ -100,6 +101,7 @@ To create a production build, use yarn build.
 ```
 
 Everything is configured as expected. Now we can test and use our web application!
+# Architecture
 
 ## Frontend Architecture
 
