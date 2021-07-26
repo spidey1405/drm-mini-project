@@ -1,0 +1,46 @@
+@import '../../global_css/variables';
+.Button {
+  margin: 1rem;
+  height: 2.5rem;
+  margin-top: -4rem;
+}
+.Row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.popupMessage {
+  position: fixed;
+  bottom: 1rem;
+  left: auto;
+  width: 50%;
+  margin: 0.25rem auto;
+  background-color: $warning-popupBackground;
+  padding: 0.62rem;
+  text-align: center;
+  transform: translateX(50%);
+  color: $warning-popupText;
+  border: 1px solid $warning-popupText;
+  font-size: 1rem;
+  animation: FadeAnimation 3s ease-in 0.2s forwards;
+}
+
+.InputBox {
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+@keyframes FadeAnimation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(50%, 0);
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(50%, 100%);
+    display: none;
+  }
+}

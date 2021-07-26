@@ -1,0 +1,23 @@
+# GET http://localhost:8000/categories_subcategories/1 HTTP/1.1
+
+#  GET http://localhost:8000/subcategories HTTP/1.1
+
+# GET http://localhost:8000/categories HTTP/1.1
+
+GET http://localhost:8000/products HTTP/1.1
+# GET http://localhost:8000/products_data HTTP/1.1
+
+
+# POST http://localhost:8000/products/ HTTP/1.1 
+# content-type: application/json
+
+# {
+#     "productName": "Adidas Rebound",
+#     "subCategoryType": 9
+# }
+
+# GET http://localhost:8000/subcategories_products/5 HTTP/1.1
+
+# GET http://localhost:8000/category_products HTTP/1.1
+
+
